@@ -1,19 +1,20 @@
 # opml2csv
 
-`opml2csv` is a command-line tool written in Go for converting OPML (Outline Processor Markup Language) files into CSV files. This tool extracts feed information defined in an OPML file and structures it into a tabular, CSV-friendly format.
+`opml2csv` is a command-line tool written in Go for converting a [Feedly](https://feedly.com) OPML (Outline Processor Markup Language) file into CSV.
+This tool extracts feed information defined in a Feedly OPML file and structures it into a tabular, CSV-friendly format.
 
 ## Features
 
-- Efficient conversion of an OPML file to CSV.
+- Efficient conversion of a Feedly OPML file to CSV.
 - Command-line arguments that make input and output handling simple.
 - Automatic generation of CSV headers.
-- Validation of OPML input files.
+- Validation of Feedly OPML input files.
 - Options to display help and version information.
 
 ## Prerequisites
 
 - **Go SDK 1.23.4** (or a more recent version).
-- An OPML file containing structured feed information (feeds, URLs, etc.).
+- A Feedly OPML file containing structured feed information (feeds, URLs, etc.).
 
 ## Installation
 
